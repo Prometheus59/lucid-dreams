@@ -7,6 +7,11 @@ export default () => (
   <div>
     <Navbar />
     <Header headerText="About" />
-    <p>About text</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum doloremque
+      soluta, excepturi sapiente voluptates placeat porro nostrum vero nemo ea
+      temporibus illo pariatur ratione assumenda aspernatur quidem accusamus
+      eligendi magnam?
+    </p>
   </div>
 )

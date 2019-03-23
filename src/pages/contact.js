@@ -2,12 +2,18 @@ import React from "react"
 import Header from "../components/header"
 import Navbar from "../components/navbar"
 import "../../static/css/navbar.css"
+import "../../static/css/global.css"
 
 export default () => (
   <div>
     <Navbar />
-    <Header headerText="Contact" />
-    <p>Send us a message!</p>
-    <p>Email me at: example@gmail.ca</p>
+    <div className="paragraph">
+      <Header headerText="Contact" />
+      <p>
+        Check out{" "}
+        <a href="http://www.ryankarumanchery.info">my other projects</a>
+      </p>
+      <p>Email me at: example@gmail.ca</p>
+    </div>
   </div>
 )
