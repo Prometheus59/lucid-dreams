@@ -1,0 +1,16 @@
+.paragraph {
+  padding: 1em 7em 2em 7em;
+}
+
+.footer {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.sub-footer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 50px 10px 50px;
+}

@@ -1,0 +1,11 @@
+.categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 6vh;
+}
+
+.categories li {
+  text-decoration: none;
+  list-style-type: none;
+}

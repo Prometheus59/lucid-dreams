@@ -1,10 +1,13 @@
 import React from "react"
 import Header from "../components/header"
 import Navbar from "../components/navbar"
+import { Link } from "gatsby"
 import "../../static/css/index.css"
 import "../../static/css/navbar.css"
+import "../../static/css/global.css"
 import icon from "../../static/images/dreaming.png"
 import Triplecard from "../components/triplecard"
+import Footer from "../components/footer"
 
 export default () => (
   <div>
@@ -18,9 +21,12 @@ export default () => (
       />
 
       <p>Learn how to lucid dream</p>
+      <button>
+        <Link to="/techniques">Get Started</Link>
+      </button>
       <Triplecard />
     </div>
-    <div className="info">
+    <div className="paragraph">
       <h3>Why Lucid Dream?</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
@@ -35,5 +41,10 @@ export default () => (
         incidunt aliquam provident.
       </p>
     </div>
+    <div className="paragraph">
+      <h3>How to begin</h3>
+      <Link to="/techniques">Techniques</Link>
+    </div>
+    <Footer />
   </div>
 )
