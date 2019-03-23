@@ -1,11 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
 import Header from "../components/header"
+import Navbar from "../components/navbar"
+import "../../static/css/navbar.css"
 
 export default () => (
-  <div style={{ color: `teal` }}>
-    <Link to="/">Home</Link>
-    <Header headerText="Contact" />
-    <p>Send us a message!</p>
+  <div>
+    <Navbar />
+    <Header headerText="About" />
+    <p>About text</p>
   </div>
 )

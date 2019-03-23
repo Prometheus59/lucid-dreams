@@ -5,21 +5,3 @@ body {
   font-family: "Roboto", sans-serif;
   font-family: "Open Sans", sans-serif;
 }
-
-.navbar {
-  display: flex;
-  height: 40px;
-  flex-direction: row;
-  background: lightslategrey;
-  font-size: 120%;
-}
-
-.navbar a {
-  color: white;
-  text-decoration: none;
-}
-
-.navbar li {
-  list-style-type: none;
-  padding-left: 20px;
-}
