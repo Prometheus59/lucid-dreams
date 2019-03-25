@@ -5,28 +5,42 @@ import { Link } from "gatsby"
 export default () => (
   <div className="footer">
     <div className="sub-footer">
-      <h4>Website Navigation</h4>
+      <h3>Website Navigation</h3>
       <li>
-        <Link to="/">Home</Link>
+        <Link className="link" to="/">
+          Home
+        </Link>
       </li>
       <li>
-        <Link to="/about">About</Link>
+        <Link className="link" to="/about">
+          About
+        </Link>
       </li>
       <li>
-        <Link to="/blog">Blog</Link>
+        <Link className="link" to="/blog">
+          Blog
+        </Link>
       </li>
       <li>
-        <Link to="/contact">Contact</Link>
+        <Link className="link" to="/contact">
+          Contact
+        </Link>
       </li>
       <li>
-        <Link to="/resources">Resources</Link>
+        <Link className="link" to="/resources">
+          Resources
+        </Link>
       </li>
     </div>
     <div className="sub-footer">
-      <h4>Connect with me</h4>
+      <h3>Connect with me</h3>
+      <li>LinkedIn</li>
+      <li>GitHub</li>
+      <li>ryankarumanchery.info</li>
+      <li>Stack Overflow</li>
     </div>
     <div className="sub-footer">
-      <h4>Learn More</h4>
+      <h3>Learn More</h3>
     </div>
   </div>
 )
