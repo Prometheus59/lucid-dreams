@@ -26,7 +26,7 @@ export default () => (
       </button>
       <Triplecard />
     </div>
-    <div className="paragraph">
+    <div className="paragraph make-card">
       <h3>Why Lucid Dream?</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
@@ -39,6 +39,16 @@ export default () => (
         molestiae eos harum sapiente atque eveniet distinctio rem. Numquam
         quibusdam ullam quam excepturi facilis cupiditate cumque? Iusto possimus
         incidunt aliquam provident.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
+        natus eum laudantium sequi fuga labore, cupiditate sint accusamus
+        explicabo, sapiente adipisci reprehenderit? Dicta, quibusdam molestiae
+        delectus similique explicabo doloremque, veritatis, praesentium odio
+        quisquam fugit soluta dolorum. Neque quibusdam maxime quod suscipit nam
+        consequuntur in atque tempore, adipisci vitae, voluptates aspernatur
+        eligendi sit dolorum? Eligendi veritatis ipsam nulla at in molestias
+        earum, recusandae amet perferendis eum qui sequi quisquam odit labore!
       </p>
     </div>
     <div className="paragraph">
