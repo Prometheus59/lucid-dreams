@@ -25,5 +25,25 @@ body {
   width: 80%;
   border-radius: 12px;
   background: #6c7c8c;
-  margin: 15px auto 15px auto;
+  margin: 30px auto 60px auto;
+}
+
+.card-pic {
+  display: flex;
+  flex-direction: row;
+  padding-left: 40px;
+  padding-right: 40px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.make-card-left {
+  width: 40%;
+  border-radius: 12px;
+  background: #6c7c8c;
+}
+
+.card-image {
+  height: 400px;
+  border-radius: 12px;
 }
